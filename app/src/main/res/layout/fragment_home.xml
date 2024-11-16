@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- Search TextBox -->
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Recipes"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableEnd="@drawable/search"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:clickable="false"
+        />
+
+
+    <!-- RecyclerView to Display Content -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:id="@+id/rv_parent"
+        android:layout_marginTop="72dp"/>
+
+</FrameLayout>

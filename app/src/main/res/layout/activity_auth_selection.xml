@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Animated ImageView for the Sticker -->
+    <ImageView
+        android:id="@+id/imgSticker"
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:src="@drawable/hello"
+        android:contentDescription="Hello Sticker"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Animated TextView for the Welcome Message -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Plate Perfect"
+        android:textSize="20sp"
+        android:textColor="@color/icon_color"
+        android:layout_marginBottom="32dp"
+        android:visibility="invisible"/>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "428951586261",
+    "project_id": "plateperfect-a2e82",
+    "storage_bucket": "plateperfect-a2e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428951586261:android:26dbf83a9ea782d06d295c",
+        "android_client_info": {
+          "package_name": "edu.northeastern.numad24su_plateperfect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb7Cg1NOW867gIBHU-x2tSmdtwgTXSxXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
